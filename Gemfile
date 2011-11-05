@@ -1,5 +1,7 @@
 source "http://rubygems.org"
 
+gem 'heroku'
+
 group :development do
   gem 'rake'
   gem 'rack'
