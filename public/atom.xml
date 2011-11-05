@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Karthik Hariharan]]></title>
+  <link href="http://hkarthik.me/atom.xml" rel="self"/>
+  <link href="http://hkarthik.me/"/>
+  <updated>2011-11-05T11:02:21-05:00</updated>
+  <id>http://hkarthik.me/</id>
+  <author>
+    <name><![CDATA[Karthik Hariharan]]></name>
+    <email><![CDATA[kar.hariharan@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>

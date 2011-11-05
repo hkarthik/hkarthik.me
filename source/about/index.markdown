@@ -30,7 +30,7 @@ href="http://purecharity.com" rel="me">Pure Charity</a>.
 I like to hack on Open Source projects whenever I get the chance. I also enjoy
 going to development conferences, meetups and local technology focused
 user groups. I also enjoy all things startup related, and I primarily
-prefer to work in or with software startups.
+prefer to work in or with software startups that utilize Agile methods.
 
 In my spare time, I'm an avid PC and Xbox gamer, and when I get the
 chance to hit the slopes, I enjoy both skiing and snowboarding.
