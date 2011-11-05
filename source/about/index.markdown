@@ -37,7 +37,7 @@ chance to hit the slopes, I enjoy both skiing and snowboarding.
 
 Feel free to connect with me via the following:
 
-* Email me at <a href="mailto:kar.hariharan@gmail.com" rel="me">kar.hariharan@gmail.com</a> 
-* Twitter me at <a href="http://twitter.com/hkarthik" rel="me">hkarthik</a>
-* Connect with me on <a href="http://www.linkedin.com/in/karthikhariharan" rel="me">LinkedIn</a>
-* Check out my code on <a href="http://github.com/hkarthik" rel="me">GitHub</a>
+  * Email me at <a href="mailto:kar.hariharan@gmail.com" rel="me">kar.hariharan@gmail.com</a> 
+  * Twitter me at <a href="http://twitter.com/hkarthik" rel="me">hkarthik</a>
+  * Connect with me on <a href="http://www.linkedin.com/in/karthikhariharan" rel="me">LinkedIn</a>
+  * Check out my code on <a href="http://github.com/hkarthik" rel="me">GitHub</a>
