@@ -15,6 +15,7 @@ $sidebar-link-color: saturate(#526f9a, 10);
 $sidebar-link-color-hover: darken(#7ab662, 9);
 $footer-bg: #3E362F;
 $footer-color: lighten($header-bg, 58);
+$footer-link-color: darken($footer-color, 10);
 
 /* To use the light Solarized highlighting theme uncomment the following line */
 $solarized: light;
