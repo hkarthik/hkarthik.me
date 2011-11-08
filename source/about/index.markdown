@@ -7,6 +7,8 @@ sharing: true
 footer: true
 ---
 
+{% img /images/family.jpg 500 333 my family %}
+
 I am software developer living in Dallas, TX with my wonderful wife Swati and my
 two beautiful daughters, Suhani and Sanika.
 
