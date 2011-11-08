@@ -32,7 +32,7 @@ Cloud based hosting platforms, like <a href="http://www.heroku.com">Heroku</a>,
 are perfectly suited for hosting static sites that can be scaled up very easily.
 Heroku's free plan goes a long way and would likely handle the vast majority of
 traffic, but still give you the ability to use push button scaling for those rare
-instances when a post hits the #1 page of <a href="http://news.ycombinator.com">Hacker News</a>
+instances when a post hits the #1 page of <a href="http://news.ycombinator.com">Hacker News</a>.
 
 ## Choosing a static site generator
 There a number of static site generators that will perform the basic
