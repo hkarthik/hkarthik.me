@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Karthik Hariharan</title>
+  <title>My Reasons for Leaving .NET - Karthik Hariharan</title>
   <meta name="author" content="Karthik Hariharan">
 
   
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://hkarthik.me/">
+  <link rel="canonical" href="http://hkarthik.me/blog/2011/11/11/my-reasons-for-leaving-net/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -59,15 +59,12 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2011/11/11/my-reasons-for-leaving-net/">My Reasons for Leaving .NET</a></h1>
+      <h1 class="entry-title">My Reasons for Leaving .NET</h1>
     
     
       <p class="meta">
@@ -88,7 +85,7 @@
   </header>
 
 
-  <div class="entry-content"><p>My current gig at Pure Charity is my first developer
+<div class="entry-content"><p>My current gig at Pure Charity is my first developer
 role where the technical environment is not .NET. After 6 years of .NET
 development work, I&#8217;ve decided to leave .NET and work in Ruby. My reasons
 for making this change were largely technical but also reflected a
@@ -223,22 +220,16 @@ got the chance to work with some very smart folks. But it&#8217;s
 time to move on to other things. I look forward to sharing more of my
 journey with you.</p>
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2011/11/06/a-fresh-start-on-a-static-site/">A Fresh Start on a Static Site</a></h1>
-    
-    
-      <p class="meta">
-        
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Karthik Hariharan</span></span>
+
+      
 
 
 
@@ -248,97 +239,36 @@ journey with you.</p>
 
 
 
-<time datetime="2011-11-06T10:18:00-06:00" pubdate  data-updated="true" >Nov 6<span>th</span>, 2011</time>
-        
-      </p>
+<time datetime="2011-11-11T21:00:00-06:00" pubdate  data-updated="true" >Nov 11<span>th</span>, 2011</time>
+      
+
+
+    </p>
     
-  </header>
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://hkarthik.me/blog/2011/11/11/my-reasons-for-leaving-net/" data-via="hkarthik" data-counturl="http://hkarthik.me/blog/2011/11/11/my-reasons-for-leaving-net/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
 
+    
+  </footer>
+</article>
 
-  <div class="entry-content"><p>I&#8217;ve decided to move my blog to a new domain and use a static site
-generator to serve up the content. Since the content doesn&#8217;t change
-much, it makes little sense to continue using Wordpress on a shared
-web hosting plan with limited resources.</p>
-
-<h2>Static Sites Are Fast</h2>
-
-<p>A static site significantly reduces the overhead of disk I/O by
-taking the relational database out of the picture. Most modern web
-servers can be highly tuned to avoid disk access for static content by
-utilizing output caching. If setup correctly, the fast majority
-of web requests require zero disk I/O. This allows the web server to
-serve content faster and handle larger loads with less resources.</p>
-
-<p>While it is possible to use Wordpress Plugins like SuperCache to reduce
-disk I/O, it still requires a Fast CGI process to serve the content via
-PHP. This incurs enough CPU usage to make it slower than a pure static site.</p>
-
-<h2>Easy cloud based hosting and scaling</h2>
-
-<p>While a typical shared hosting setup works most of the time, it
-does carry the possibility of a popular post bringing your hosting
-to its knees. Planning for this kind of event carries a lot of
-cost which will go unused most of the time.</p>
-
-<p>Cloud based hosting platforms, like <a href="http://www.heroku.com">Heroku</a>,
-are perfectly suited for hosting static sites that can be scaled up very easily.
-Heroku&#8217;s free plan goes a long way and would likely handle the vast majority of
-traffic, but still give you the ability to use push button scaling for those rare
-instances when a post hits the #1 page of <a href="http://news.ycombinator.com">Hacker News</a>.</p>
-
-<h2>Choosing a static site generator</h2>
-
-<p>There a number of static site generators that will perform the basic
-operations of translating posts that are written in
-<a href="http://daringfireball.net/projects/markdown/">Markdown</a>
-into HTML and organizing the output along with any uploaded media.</p>
-
-<p>I chose to go with <a href="http://octopress.org">Octopress</a> because it
-offered the following:</p>
-
-<ul>
-<li>Ruby based and easily customizable with plugins.</li>
-<li>Easily configured to work with Heroku.</li>
-<li>Stylesheets are written in <a href="http://thesassway.com/">Sass</a>.</li>
-<li>Excellent typography out of the box with the base theme.</li>
-<li>Sits on top of <a href="http://github.com/mojombo/jekyll">Jekyll</a>, and
-can utilize many existing plugins.</li>
-<li>Easy local preview with a built in Rack server.</li>
-</ul>
-
-
-<h2>Migrating old content</h2>
-
-<p>I&#8217;ve chosen to move my old wordpress install over to wordpress.com&#8217;s
-free plan for archival purposes rather than attempt a content migration.
-But if you want to preserve your old content and links, there is a
-Wordpress to Jekyll migrating tool called
-<a href="http://github.com/thomasf/exitwp">ExitWP</a> that many have used
-successfully. Also, you can utilize a rack server to execute code to handle redirects.</p>
-
-<h2>Additional Resources</h2>
-
-<ul>
-<li><a href="http://inessential.com/2011/03/16/a_plea_for_baked_weblogs">A plea for baked weblogs</a></li>
-<li><a href="http://mattgemmell.com/2011/09/12/blogging-with-octopress/">Matt Gemmell&#8217;s post on blogging with Octopress</a></li>
-<li><a href="http://www.scottw.com/moving-to-octopress">Scott Watermasysk&#8217;s post on Octopress with Heroku</a></li>
-</ul>
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
-  
-  
 
-
-    </article>
-  
-  <nav class="pagination">
-    <div>
-      
-      <a href="/blog/archives">Blog Archives</a>
-      
-    </div>
-  </nav>
-</div>
 <aside class="sidebar">
   
     <section>
@@ -359,7 +289,7 @@ successfully. Also, you can utilize a rack server to execute code to handle redi
 <section>
   <h1>Github Repos</h1>
   <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
+    <li class="loading">Status updating...</li>
   </ul>
   
   <a href="https://github.com/hkarthik">@hkarthik</a> on Github
@@ -389,7 +319,7 @@ successfully. Also, you can utilize a rack server to execute code to handle redi
 <section>
   <h1>Latest Tweets</h1>
   <ul id="tweets">
-    <li class="loading">Status updating&#8230;</li>
+    <li class="loading">Status updating...</li>
   </ul>
   <script type="text/javascript">
     $.domReady(function(){
@@ -405,7 +335,7 @@ successfully. Also, you can utilize a rack server to execute code to handle redi
 
 <section>
   <h1>My Pinboard</h1>
-  <ul id="pinboard_linkroll">Fetching linkroll&#8230;</ul>
+  <ul id="pinboard_linkroll">Fetching linkroll...</ul>
   <p><a href="http://pinboard.in/u:hkarthik">My Pinboard Bookmarks &raquo;</a></p>
 </section>
 <script type="text/javascript">
@@ -425,6 +355,7 @@ successfully. Also, you can utilize a rack server to execute code to handle redi
   
 </aside>
 
+
     </div>
   </div>
   <footer role="contentinfo"><p>
@@ -440,7 +371,10 @@ successfully. Also, you can utilize a rack server to execute code to handle redi
       var disqus_shortname = 'hkarthik';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://hkarthik.me/blog/2011/11/11/my-reasons-for-leaving-net/';
+        var disqus_url = 'http://hkarthik.me/blog/2011/11/11/my-reasons-for-leaving-net/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
