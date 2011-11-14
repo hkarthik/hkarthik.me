@@ -12,8 +12,7 @@ After 6 years of .NET development work, I've decided to leave .NET and work in R
 for making this change were largely technical but also reflected a
 change in attitude about building software.
 
-This post will be an in
-depth explanation of my reasons for leaving .NET.
+This post will be an in depth explanation of my reasons for leaving .NET.
 
 ## Back to Unix 
 Working with Ruby on a day to day basis has rekindled my love for Unix. 
@@ -49,7 +48,7 @@ worked with in the past.
 I purchased my first Mac in 2009 and I have found the hardware and the software
 on the Mac to be simple, elegant, and easy to use.
 
-The single big benefit to the Mac is that beneath the flashy hood, it's a
+The single biggest benefit to the Mac is that beneath the flashy hood, it's a
 powerful Unix-based OS and can utilize all the tooling and libraries
 that Unix developers have used for decades. Coupled with the power of Unix and the
 ability to run familar software with the GUI or through virtualization, there's little reason for any developer to not consider moving to the
