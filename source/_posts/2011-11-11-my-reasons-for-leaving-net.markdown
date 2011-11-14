@@ -6,10 +6,13 @@ comments: true
 categories: 
 ---
 My current gig at Pure Charity is my first developer
-role where the technical environment is not .NET. After 6 years of .NET
-development work, I've decided to leave .NET and work in Ruby. My reasons
+role where the technical environment is not .NET. 
+
+After 6 years of .NET development work, I've decided to leave .NET and work in Ruby. My reasons
 for making this change were largely technical but also reflected a
-change in attitude about building software. This post will be an in
+change in attitude about building software.
+
+This post will be an in
 depth explanation of my reasons for leaving .NET.
 
 ## Back to Unix 

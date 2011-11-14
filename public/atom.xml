@@ -4,7 +4,7 @@
   <title><![CDATA[Karthik Hariharan]]></title>
   <link href="http://hkarthik.me/atom.xml" rel="self"/>
   <link href="http://hkarthik.me/"/>
-  <updated>2011-11-14T10:06:12-06:00</updated>
+  <updated>2011-11-14T10:15:12-06:00</updated>
   <id>http://hkarthik.me/</id>
   <author>
     <name><![CDATA[Karthik Hariharan]]></name>
@@ -19,10 +19,13 @@
     <updated>2011-11-11T21:00:00-06:00</updated>
     <id>http://hkarthik.me/blog/2011/11/11/my-reasons-for-leaving-net</id>
     <content type="html"><![CDATA[<p>My current gig at Pure Charity is my first developer
-role where the technical environment is not .NET. After 6 years of .NET
-development work, I&#8217;ve decided to leave .NET and work in Ruby. My reasons
+role where the technical environment is not .NET.</p>
+
+<p>After 6 years of .NET development work, I&#8217;ve decided to leave .NET and work in Ruby. My reasons
 for making this change were largely technical but also reflected a
-change in attitude about building software. This post will be an in
+change in attitude about building software.</p>
+
+<p>This post will be an in
 depth explanation of my reasons for leaving .NET.</p>
 
 <h2>Back to Unix</h2>
