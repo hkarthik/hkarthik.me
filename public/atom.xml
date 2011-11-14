@@ -4,7 +4,7 @@
   <title><![CDATA[Karthik Hariharan]]></title>
   <link href="http://hkarthik.me/atom.xml" rel="self"/>
   <link href="http://hkarthik.me/"/>
-  <updated>2011-11-14T09:45:34-06:00</updated>
+  <updated>2011-11-14T10:06:12-06:00</updated>
   <id>http://hkarthik.me/</id>
   <author>
     <name><![CDATA[Karthik Hariharan]]></name>
@@ -63,7 +63,13 @@ worked with in the past.</p>
 <p>I purchased my first Mac in 2009 and I have found the hardware and the software
 on the Mac to be simple, elegant, and easy to use.</p>
 
-<p>An unexpected benefit that I have found with the Mac is that it requires far less baby-sitting of the Operating System in the way of
+<p>The single big benefit to the Mac is that beneath the flashy hood, it&#8217;s a
+powerful Unix-based OS and can utilize all the tooling and libraries
+that Unix developers have used for decades. Coupled with the power of Unix and the
+ability to run familar software with the GUI or through virtualization, there&#8217;s little reason for any developer to not consider moving to the
+Mac.</p>
+
+<p>Another benefit that I have found with the Mac is that it requires far less baby-sitting of the Operating System in the way of
 driver updates, OS updates, and general system administration. By
 simplifying all of these tasks, the Mac has allowed me to focus more on consuming and
 creating content rather than constantly tweaking my OS or worrying about
@@ -72,12 +78,6 @@ the latest update.</p>
 <p>While some enjoy the tweaking, as I did in the past, I no longer enjoy spending my time that way. I now prefer
 my OS to stay out of my way so I can focus on perfecting my craft
 and building things.</p>
-
-<p>The other big benefit to the Mac is that beneath the flashy hood, it&#8217;s a
-powerful Unix-based OS and can utilize all the tooling and libraries
-that Unix developers have used for decades. Coupled with the power of Unix and the
-ability to run familar software with the GUI or through virtualization, there&#8217;s little reason for any developer to not consider moving to the
-Mac.</p>
 
 <h2>Deploying to the Linux based Cloud</h2>
 
@@ -104,7 +104,9 @@ makes the whole community feel more genuine.</p>
 
 <p>The Ruby conference talks are more often in a show and tell format. Rarely
 do I feel that the speaker is attempting to sell me on something or
-further their personal branding.</p>
+further their personal branding. The .NET community tends to have a
+strong vendor focus along with lots of self promotion at the speaker
+level. It&#8217;s been refreshing to see less of this in the Ruby community.</p>
 
 <p>The Ruby community also feels more self sufficient than the .NET community, since Rubyists don&#8217;t
 look to a vendor to direct their technology stack. Many .NET developers
@@ -124,9 +126,9 @@ experiment and take ownership of an idea without getting too deep into
 internal politics and bureaucracy.</p>
 
 <p>Unfortunately, startups are less likely to use .NET technologies due to its higher costs. To be fair, Microsoft has
-made efforts to reduce costs for startups through the Bizspark program. But after 3 years a fledgling startup is still subject to
-very high licensing costs and has to strategically plan to pay for it. Given the choice, I don&#8217;t know many startup
-founders that would choose .NET for new ventures.</p>
+made efforts to reduce costs for startups through the Bizspark program. But after 3 years, a startup is still subject to
+very high licensing costs and has to strategically plan to pay for them or migrate off .NET. Given the choice, I don&#8217;t know many startup
+founders that would choose .NET for new ventures today.</p>
 
 <p>Additionally, there is a perception that .NET developers are too specialized
 to be effective generalists. Since I specialized in .NET for the past 6 years, this severely limited my
