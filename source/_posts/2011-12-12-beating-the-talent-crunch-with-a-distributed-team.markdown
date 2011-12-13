@@ -76,8 +76,8 @@ frictionless.
 A robust video conferencing solution is essential to help team members
 hold both regular meetings and ad-hoc touch points. The things to look for here are:
 
-- Good cross platform support 
-- Excellent audio and video quality for multiple participants 
+- Good cross platform support.
+- Excellent audio and video quality for multiple participants.
 - The ability to quickly let participants share their screen.
 
 My favorite tool for this is GoToMeeting, but many teams 
