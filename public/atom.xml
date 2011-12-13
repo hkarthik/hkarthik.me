@@ -4,7 +4,7 @@
   <title><![CDATA[Karthik Hariharan]]></title>
   <link href="http://hkarthik.me/atom.xml" rel="self"/>
   <link href="http://hkarthik.me/"/>
-  <updated>2011-11-21T09:52:37-06:00</updated>
+  <updated>2011-12-13T09:36:02-06:00</updated>
   <id>http://hkarthik.me/</id>
   <author>
     <name><![CDATA[Karthik Hariharan]]></name>
@@ -12,6 +12,173 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Beating the Talent Crunch With a Distributed Team]]></title>
+    <link href="http://hkarthik.me/blog/2011/12/12/beating-the-talent-crunch-with-a-distributed-team/"/>
+    <updated>2011-12-12T19:05:00-06:00</updated>
+    <id>http://hkarthik.me/blog/2011/12/12/beating-the-talent-crunch-with-a-distributed-team</id>
+    <content type="html"><![CDATA[<p>There&#8217;s been a lot of press lately about the severe shortage of software
+engineers across the country. I have been involved in hiring engineers in
+multiple companies over the past few years and I&#8217;ve seen a steady
+shrinking and dispersion of the available talent pool. I believe
+that the only solution to the talent crunch in the short term is to build
+and grow distributed teams.</p>
+
+<p>After working closely with successful distributed teams in the past, I
+became aware of how well they work when grown carefully. To that end,
+I sought out a role with a distributed team to learn how they operate and
+utilize these skills to help build and lead teams in the future.</p>
+
+<p>This post is to share some of what I&#8217;ve observed and learned after 6
+months of working in a distributed team at <a href="http://purecharity.com">Pure Charity</a>.</p>
+
+<h2>Distributed Hiring</h2>
+
+<p>Hiring members of a distributed team is not all that different from
+hiring a colocated team. Here are some core guidelines.</p>
+
+<ul>
+<li>Focus on internal referrals from active team members.</li>
+<li>If your internal referrals run dry, reach out to the larger community.</li>
+<li>Look at actual code via OSS contributions or code snippets they share.</li>
+<li>Spend a day pair programming remotely on a real world problem to see how they
+fit in with the existing team.</li>
+<li>Try to keep everyone within a single timezone.</li>
+</ul>
+
+
+<p>Everyone knows a weak link hurts the whole team, but in a distributed
+team, it can hurt even more. The good news is, you have a wider talent
+pool to work with and can afford to be a bit pickier with whom you hire
+to mitigate this risk.</p>
+
+<h2>The Chatroom</h2>
+
+<p>The team chatroom provides a number of advantages. Here are a few.</p>
+
+<ul>
+<li>A common communication area where team members can get rapid feedback
+and bounce ideas around.</li>
+<li>A focused area for private messaging without the noise of typical IM
+networks.</li>
+<li>A watercooler for the random banter that builds camaraderie among
+teams.</li>
+<li>Relief from the constant flood of email.</li>
+</ul>
+
+
+<p>The last point is very important. Since working in a distributed team,
+my email volume has dropped significantly and I don&#8217;t have to spend much
+time managing my inbox to stay on top. That has been invaluable.</p>
+
+<p>There a number of products, aside from the standard IRC, that can host
+the chatroom. My favorite is <a href="http://hipchat.com">HipChat</a>, but many
+teams use <a href="http://campfirenow.com">Campfire</a>. I like the hosted services
+since they can parse code, share files, embed images/video,
+and log conversations. Plus, they are a lot of fun when you add a
+<a href="http://hubot.github.com">Hubot</a>.</p>
+
+<h2>Audio Conferencing</h2>
+
+<p>When ideas are not easily communicated via IM, email, or the
+Chatroom, it&#8217;s best to hold an audio conversation. There are a number of
+solutions to this but I suggest the following guidelines:</p>
+
+<ul>
+<li>Choose one that runs on low bandwidth networks with good audio quality.</li>
+<li>Everyone on the team should use the same product.</li>
+<li>Have everyone stay online as much as possible during the work day.</li>
+</ul>
+
+
+<p>Our team, being composed entirely of Mac users, uses iChat to quickly have push button audio
+communication within small groups. Many other teams use Skype. Choose
+what you like, but make sure everyone uses the same thing and it remains
+frictionless.</p>
+
+<h2>Video Conferencing</h2>
+
+<p>A robust video conferencing solution is essential to help team members
+hold both regular meetings and ad-hoc touch points. The things to look for here are:</p>
+
+<ul>
+<li>Good cross platform support</li>
+<li>Excellent audio and video quality for multiple participants</li>
+<li>The ability to quickly let participants share their screen.</li>
+</ul>
+
+
+<p>My favorite tool for this is GoToMeeting, but many teams
+use WebEx, Skype, or free products for this. The better solutions come at a
+premium price, but it&#8217;s well worth it. Regular face time over video
+conferencing helps the team gel better.</p>
+
+<h2>Remote Pair Programming</h2>
+
+<p>A great way to help development teams stay focused and productive is to give them the right
+tools for pair programming. In our team, nearly everyone is comfortable
+using Vim as their editor. With the combination of Tmux + Vim, team
+members can remotely pair program and control a single shared terminal
+session. In this termimal session, everyone has keyboard control on a low bandwidth
+connection. This is extremely useful when pair programming or mentoring more junior developers.</p>
+
+<p>If your development environment really requires the use of an
+IDE, I have heard good things about using <a href="http://www.teamviewer.com">TeamViewer</a> as an alternative.</p>
+
+<h2>The Workstream</h2>
+
+<p>This suggestion may be a little controversial, but I suggest having every team
+member keep a running log of what they work on during the day. When you&#8217;re working in a
+distributed team, it&#8217;s easy to lose track of what each team member is
+working on. While you can always IM or make calls, it&#8217;s far less
+intrusive to glance at the workstream to get a heartbeat on the team&#8217;s
+progress.</p>
+
+<p>In addition, the workstream provides the whole team with transparency and
+helps keep everyone focused. You can more easily see if someone is spinning their
+wheels and help them get unstuck long before they have to ask. This helps a lot with
+onboarding and ramping up new team members without making them feel
+too micro-managed. Also, it helps build an environment of mutual trust and
+understanding.</p>
+
+<p>We use <a href="http://coopapp.com">Coopapp</a> and <a href="http://harvesthq.com">Harvest</a> to have team members track their work hours along
+with any paid time off.</p>
+
+<p>If tracking time feels a little too intrusive to you, I recommend using <a href="http://yammer.com">Yammer</a> and having
+your team provide micro-updates periodically.</p>
+
+<h2>Don&#8217;t Cross the Streams</h2>
+
+<p>One of the biggest areas where I see companies go wrong is mixing remote
+team members with colocated members. Nothing sucks more than being the
+one guy on the phone in a room full of colocated developers. It can be isolating,
+frustrating, and terribly unproductive for everyone involved.</p>
+
+<p>If you&#8217;ve already got a colocated team, the best thing you can do is
+hire more colocated team members. If you&#8217;re struggling to hire locally,
+then hire two or more remote workers that have worked together
+previously to seed a distributed team. Keep their work separate from
+that of your colocated team. Or let some of your colocated team members
+work from home to help seed the distributed team.</p>
+
+<h2>Plan for Face Time</h2>
+
+<p>At least once a quarter, plan on getting everyone together in one
+physical location for a few days of work, along with a night or two out. Such
+sessions will be highly effective and the evenings are great for team building. During
+the day, set a clear agenda and try to stick to it.</p>
+
+<h2>Final Thoughts</h2>
+
+<p>Distributed teams definitely come with certain challenges, and it&#8217;s
+critical to keep the teams small to minimize the communication difficulties. Many companies
+like 37signals, GitHub, and Living Social have all used these
+strategies effectively to build a remote workforce so there&#8217;s no reason
+it can&#8217;t work for you too. If you have thoughts or experiences to share,
+please do so in the comments.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[An Open Source Workflow With Ruby on Rails]]></title>
