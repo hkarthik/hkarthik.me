@@ -9,7 +9,7 @@
   <meta name="author" content="Karthik Hariharan">
 
   
-  <meta name="description" content="I&#8217;ve decided to move my blog to a new domain and use a static sitegenerator to serve up the content. Since the content doesn&#8217;t changemu...">
+  <meta name="description" content="I&#8217;ve decided to move my blog to a new domain and use a static site generator to serve up the content. Since the content doesn&#8217;t change ...">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -85,66 +85,40 @@
   </header>
 
 
-<div class="entry-content"><p>I&#8217;ve decided to move my blog to a new domain and use a static site
-generator to serve up the content. Since the content doesn&#8217;t change
-much, it makes little sense to continue using Wordpress on a shared
-web hosting plan with limited resources.</p>
+<div class="entry-content"><p>I&#8217;ve decided to move my blog to a new domain and use a static site generator to serve up the content. Since the content doesn&#8217;t change much, it makes little sense to continue using Wordpress on a shared web hosting plan with limited resources.</p>
 
 <h2>Static Sites Are Fast</h2>
 
-<p>A static site significantly reduces the overhead of disk I/O by
-taking the relational database out of the picture. Most modern web
-servers can be highly tuned to avoid disk access for static content by
-utilizing output caching. If setup correctly, the fast majority
-of web requests require zero disk I/O. This allows the web server to
-serve content faster and handle larger loads with less resources.</p>
+<p>A static site significantly reduces the overhead of disk I/O by taking the relational database out of the picture. Most modern web servers can be highly tuned to avoid disk access for static content by utilizing output caching. If setup correctly, the fast majority of web requests require zero disk I/O. This allows the web server to serve content faster and handle larger loads with less resources.</p>
 
-<p>While it is possible to use Wordpress Plugins like SuperCache to reduce
-disk I/O, it still requires a Fast CGI process to serve the content via
-PHP. This incurs enough CPU usage to make it slower than a pure static site.</p>
+<p>While it is possible to use Wordpress Plugins like SuperCache to reduce disk I/O, it still requires a Fast CGI process to serve the content via PHP. This incurs enough CPU usage to make it slower than a pure static site.</p>
 
 <h2>Easy cloud based hosting and scaling</h2>
 
-<p>While a typical shared hosting setup works most of the time, it
-does carry the possibility of a popular post bringing your hosting
-to its knees. Planning for this kind of event carries a lot of
-cost which will go unused most of the time.</p>
+<p>While a typical shared hosting setup works most of the time, it does carry the possibility of a popular post bringing your hosting to its knees. Planning for this kind of event carries a lot of cost which will go unused most of the time.</p>
 
-<p>Cloud based hosting platforms, like <a href="http://www.heroku.com">Heroku</a>,
-are perfectly suited for hosting static sites that can be scaled up very easily.
-Heroku&#8217;s free plan goes a long way and would likely handle the vast majority of
-traffic, but still give you the ability to use push button scaling for those rare
-instances when a post hits the #1 page of <a href="http://news.ycombinator.com">Hacker News</a>.</p>
+<p>Cloud based hosting platforms, like <a href="http://www.heroku.com">Heroku</a>, are perfectly suited for hosting static sites that can be scaled up very easily. Heroku&#8217;s free plan goes a long way and would likely handle the vast majority of traffic, but still give you the ability to use push button scaling for those rare instances when a post hits the #1 page of <a href="http://news.ycombinator.com">Hacker News</a>.</p>
 
 <h2>Choosing a static site generator</h2>
 
-<p>There a number of static site generators that will perform the basic
-operations of translating posts that are written in
-<a href="http://daringfireball.net/projects/markdown/">Markdown</a>
-into HTML and organizing the output along with any uploaded media.</p>
+<p>There a number of static site generators that will perform the basic operations of translating posts that are written in <a href="http://daringfireball.net/projects/markdown/">Markdown</a>into HTML and organizing the output along with any uploaded media.</p>
 
-<p>I chose to go with <a href="http://octopress.org">Octopress</a> because it
-offered the following:</p>
+<p>I chose to go with <a href="http://octopress.org">Octopress</a> because it offered the following:</p>
 
 <ul>
 <li>Ruby based and easily customizable with plugins.</li>
 <li>Easily configured to work with Heroku.</li>
 <li>Stylesheets are written in <a href="http://thesassway.com/">Sass</a>.</li>
 <li>Excellent typography out of the box with the base theme.</li>
-<li>Sits on top of <a href="http://github.com/mojombo/jekyll">Jekyll</a>, and
-can utilize many existing plugins.</li>
+<li>Sits on top of <a href="http://github.com/mojombo/jekyll">Jekyll</a>, and  can utilize many existing plugins.</li>
 <li>Easy local preview with a built in Rack server.</li>
 </ul>
 
 
 <h2>Migrating old content</h2>
 
-<p>I&#8217;ve chosen to move my old wordpress install over to wordpress.com&#8217;s
-free plan for archival purposes rather than attempt a content migration.
-But if you want to preserve your old content and links, there is a
-Wordpress to Jekyll migrating tool called
-<a href="http://github.com/thomasf/exitwp">ExitWP</a> that many have used
-successfully. Also, you can utilize a rack server to execute code to handle redirects.</p>
+<p>I&#8217;ve chosen to move my old wordpress install over to wordpress.com&#8217;s free plan for archival purposes rather than attempt a content migration. But if you want to preserve your old content and links, there is a Wordpress to Jekyll migrating tool called
+<a href="http://github.com/thomasf/exitwp">ExitWP</a> that many have used successfully. Also, you can utilize a rack server to execute code to handle redirects.</p>
 
 <h2>Additional Resources</h2>
 
